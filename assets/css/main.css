@@ -1,0 +1,62 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(135deg, #b3caf7, #2a5298);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Columns */
+.col {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,.25);
+    transition: .3s;
+}
+
+/* Hover Effect */
+.col:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0,0,0,.35);
+}
+
+/* First Column Items */
+.col div {
+    background: #01010a;
+    color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 22px;
+    transition: .3s;
+}
+
+.col div:hover {
+    background: #312e81;
+    transform: scale(1.05);
+}
+
+/* Text in second & third columns */
+.col:not(:first-child) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2a5298;
+    min-height: 220px;
+}
+
