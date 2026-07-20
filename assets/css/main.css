@@ -5,6 +5,9 @@
 }
 
 /* Elements */
+.footer__image{
+    max-width: 100px;
+}
 
 .footer__logo {
     color: #ffffff;
