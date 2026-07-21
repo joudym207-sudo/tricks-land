@@ -1,0 +1,36 @@
+.invitation {
+    /* min-height: 100vh; */
+    background: #f9c600;
+    padding: 150px 0;
+}
+
+.invitation__button {
+    background: #f45d01;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+}
+
+.invitation__button:hover {
+    background: #d84e00;
+    color: #fff;
+}
+
+.invitation__avatar {
+    position: absolute;
+}
+
+.invitation__avatar--left {
+    width: 450px;
+    left: 0%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.invitation__avatar--right {
+    width: 450px;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/
